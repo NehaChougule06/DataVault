@@ -1,4 +1,4 @@
-# UnFile
+# DataVault
 
 ## Required environment variables
 rename `.env.example` file to `.env` and paste your Web3.Storage token
