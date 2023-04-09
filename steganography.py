@@ -1,4 +1,3 @@
-
 import cv2
 import string
 import os
@@ -66,9 +65,4 @@ if ch == 1:
     else:
         print("Key doesn't matched.")
 else:
-    print("Thank you. EXITING.")
-   
-
-    
-
-    
+    print("Thank you. EXITING.")    
