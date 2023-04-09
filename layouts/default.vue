@@ -2,8 +2,8 @@
   <div class="bg-gray-100 min-h-screen dark:bg-gray-700">
     <div class="relative top-0 z-10 w-full">
       <div class="flex justify-between items-center px-5 lg:px-10 py-5">
-        <n-link to="/" class="font-bold text-xl px-4 py-2 dark:text-white"
-          >DataVault</n-link
+        <n-link to="/" class="flex items-stretch font-bold text-2xl md:text-4xl px-4 py-2 dark:text-white"
+          ><img class="h-8 w-8 md:h-12 md:w-12" src="../static/icon.png">DataVault</n-link
         >
         <div class="flex justify-center items-center">
           <n-link
@@ -20,6 +20,8 @@
               betterhover:hover:text-white
               text-sm
               text-center
+              text-xl
+              md:text-2xl
             "
             :class="$route.name=='myfiles'?'bg-blue-500 text-white':'text-blue-500 dark:text-blue-300'"
             >My Files</n-link
@@ -55,7 +57,7 @@
       <div class="flex justify-start items-center px-10 py-5">
         <p class="text-gray-400 dark:text-gray-200">Arithemania</p>
         <a
-            href="https://github.com/AnshulRanjan2004"
+            href="https://github.com/NehaChougule06/DataVault"
             target="_external"
             class="
               px-4

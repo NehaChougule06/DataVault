@@ -261,7 +261,7 @@ export default {
         this.encrypting = false
         return
       }
-      const fileObj = new Blob([this.textInput], 'Text', { type: 'text/plain' })
+      const fileObj = new Blob([this.textInput],{ type: 'text/plain' })
       const password = Password.generate(16)
       this.$emit('passwordCreated', password)
       this.encrypting = true
